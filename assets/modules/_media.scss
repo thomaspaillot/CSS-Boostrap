@@ -12,7 +12,7 @@
 //   <a href="" class="media-img">
 //      <img src="http://placehold.it/140x100">
 //   </a>
-//   <p class=media-body>Lorem ipsum dolor sit amet…</p>
+//   <p class="media-body">Lorem ipsum dolor sit amet…</p>
 // </div>
 //
 // *************************************
@@ -38,17 +38,17 @@
 %media-img {
     float: left;
     margin-right: $base-whitespace;
-}
 
-%media-img img,
-%media-img--rev img {
-    display: block;
+    > img {
+        display: block;
+    }
 }
 
 %media-body {
     overflow: hidden;
+    display: block;
 
-    &, & > :last-child {
+    &, > :last-child {
         margin-bottom: 0;
     }
 }

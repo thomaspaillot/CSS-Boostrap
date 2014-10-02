@@ -77,14 +77,12 @@ h4, .h4 {
 // -------------------------------------
 
 a {
-    border-bottom: 2px solid $color-underline;
     color: $color-highlight;
     text-decoration: none;
     
     &:hover,
     &:focus {
         color: $color-soften;
-        border-bottom: 2px solid $color-highlight;
     }
 }
 

@@ -18,10 +18,12 @@
 
 // ----- Base Colors ----- //
 
-$color-copy: #2E3659;
+$color-copy: #262626;
 $color-highlight: #3dc7a6;
 $color-soften: lighten($color-highlight, 40%);
 $color-underline: lighten($color-highlight, 30%);
+
+$tooltip-color: $color-copy;
 
 // ----- Base Content ----- //
 
@@ -41,4 +43,4 @@ $ff-heading: sans-serif;
 
 // ----- Z-index ----- //
 
-// ...
+$zindex-tooltip: 1000;
