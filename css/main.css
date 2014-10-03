@@ -655,10 +655,10 @@ th {
   cursor: pointer; }
 
 html {
-  font-family: sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  color: #262626; }
+  color: #464646; }
 
 body {
   font-size: 100%; }
@@ -685,7 +685,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4 {
-  font-family: sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -749,7 +749,7 @@ a {
     left: 50%;
     margin-left: -5px;
     border-width: 5px 5px 0;
-    border-top-color: #262626; }
+    border-top-color: #464646; }
 
 .tooltip--right {
   margin-left: 3px;
@@ -759,7 +759,7 @@ a {
     left: 0;
     margin-top: -5px;
     border-width: 5px 5px 5px 0;
-    border-right-color: #262626; }
+    border-right-color: #464646; }
 
 .tooltip--bottom {
   margin-top: 3px;
@@ -769,7 +769,7 @@ a {
     left: 50%;
     margin-left: -5px;
     border-width: 0 5px 5px;
-    border-bottom-color: #262626; }
+    border-bottom-color: #464646; }
 
 .tooltip--left {
   margin-left: -3px;
@@ -779,7 +779,7 @@ a {
     right: 0;
     margin-top: -5px;
     border-width: 5px 0 5px 5px;
-    border-left-color: #262626; }
+    border-left-color: #464646; }
 
 .tooltip-content {
   max-width: 200px;
@@ -787,7 +787,7 @@ a {
   color: #FFF;
   text-align: center;
   text-decoration: none;
-  background-color: #262626;
+  background-color: #464646;
   border-radius: 3px; }
 
 .tooltip-arrow {
@@ -797,14 +797,69 @@ a {
   border-color: transparent;
   border-style: solid; }
 
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 3;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 3px; }
+  .button, .button:hover {
+    text-decoration: none; }
+  .button:active, .button:focus {
+    outline: none; }
+
+.button--soft {
+  border-radius: 200px; }
+
+.button--hard {
+  border-radius: 0; }
+
 body {
   background-color: #e1e1e1; }
 
+h1 {
+  font-size: 60px; }
+
+h3 {
+  font-weight: 400;
+  color: #acacac;
+  font-size: 32px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #acacac; }
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 25px; }
+
 .container {
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 30px; }
+
+.example {
+  margin-top: 30px; }
+
+.tooltip {
+  position: relative;
+  display: inline-block; }
 
 .media {
   width: 60%; }
   .media .media-body h4 {
     margin-bottom: 5px; }
+
+.button {
+  color: #FFF;
+  background-color: #3dc7a6; }
+  .button:hover {
+    background-color: #309f84; }

@@ -658,7 +658,7 @@ html {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  color: #262626; }
+  color: #464646; }
 
 body {
   font-size: 100%; }
@@ -725,7 +725,7 @@ a {
     left: 50%;
     margin-left: -5px;
     border-width: 5px 5px 0;
-    border-top-color: #262626; }
+    border-top-color: #464646; }
 
 .tooltip--right {
   margin-left: 3px;
@@ -735,7 +735,7 @@ a {
     left: 0;
     margin-top: -5px;
     border-width: 5px 5px 5px 0;
-    border-right-color: #262626; }
+    border-right-color: #464646; }
 
 .tooltip--bottom {
   margin-top: 3px;
@@ -745,7 +745,7 @@ a {
     left: 50%;
     margin-left: -5px;
     border-width: 0 5px 5px;
-    border-bottom-color: #262626; }
+    border-bottom-color: #464646; }
 
 .tooltip--left {
   margin-left: -3px;
@@ -755,7 +755,7 @@ a {
     right: 0;
     margin-top: -5px;
     border-width: 5px 0 5px 5px;
-    border-left-color: #262626; }
+    border-left-color: #464646; }
 
 .tooltip-content {
   max-width: 200px;
@@ -763,7 +763,7 @@ a {
   color: #FFF;
   text-align: center;
   text-decoration: none;
-  background-color: #262626;
+  background-color: #464646;
   border-radius: 3px; }
 
 .tooltip-arrow {
@@ -772,3 +772,29 @@ a {
   height: 0;
   border-color: transparent;
   border-style: solid; }
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 3;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 3px; }
+  .button, .button:hover {
+    text-decoration: none; }
+  .button:active, .button:focus {
+    outline: none; }
+
+.button--soft {
+  border-radius: 200px; }
+
+.button--hard {
+  border-radius: 0; }

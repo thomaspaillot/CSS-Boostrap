@@ -6,7 +6,10 @@
 // Template
 // -------------------------------------
 //
-//
+// <div class="tooltip tooltip--top">
+//   <div class="tooltip-content">Maecenas et diam quis augue…</div>
+//   <span class="tooltip-arrow"></span>
+// </div>
 //
 // *************************************
 
@@ -21,7 +24,7 @@
 
 
 // -------------------------------------
-// Submodules
+// Modifiers
 // -------------------------------------
 
 .tooltip--top {
